@@ -1,0 +1,61 @@
+body {
+    background: lightgrey;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+
+    
+    article {
+        background: white;
+        margin: auto;
+        max-width: 40rem;
+        padding: 3rem;
+    }
+
+    h1 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 3rem;
+        line-height: 2rem;
+        margin: 2rem 0;
+        color: rgb(124, 2, 114);
+    }
+
+    p {
+        line-height: 1.618rem;
+        color: rgba(0, 0, 0, 0.7);
+
+        &.ingress {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.8);
+        }
+        em {
+            color: rgb(124, 2, 114);
+            font-weight: 600;
+        }
+    }
+            figure {
+                margin: 1rem 0;
+                padding: 0;
+    
+                img{
+                    width: 100%;
+                }
+                figcaption {
+                    font-size: .8rem;
+                    color: rgb(23, 63, 63);
+                    font-style: italic;
+                    text-align: right;
+
+                }
+            }
+    blockquote {
+        font-size: .8rem;
+        margin-bottom: .8rem;
+        background: rgba(0, 0, 0, 0.05);
+        padding: .5rem;
+        border-left:1px solid black;
+    } 
+
+}
